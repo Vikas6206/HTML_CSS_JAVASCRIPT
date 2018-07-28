@@ -1,17 +1,25 @@
-<html>
+<html lang="en">
     <header>
         <title>This is a sample program for showing the example of HTML form</form></title>
     </header>
-<body></body>
+   
+<body backdround-color="yellow">
+        <form name="formSample">
+                Name:<font color="red">*</font> <input type="text" id="Name" placeholder="Enter your name" required/>
 
-Name: <input type="text" id="Name"></input>
+                <br/><br/>
 
-<br/><br/>
+                Password:<font color="red">*</font> <input type="password" id="Password" placeholder="Enter your password" required/>               <br/><br/>
 
-Password : <input type="password" id="Password"></input>
+                Male: <input type="radio" name="gender"/>
+                Female: <input type="radio" name="gender"/>
+                Other: <input type="radio" name="gender"/>
 
-<br/><br/>
-
-<input type="button" value="submit"/>
+                <br/><br/>
+      
+                <input type="button" value="Execute"/>
+        </form>        
+        
+</body>
 
 </html>

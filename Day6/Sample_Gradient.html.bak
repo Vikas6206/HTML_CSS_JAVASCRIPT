@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Transition width</title>
+ </head>
+ <style>
+  #div1
+   {
+  height:200px;
+  width:200px;
+  border: 2px solid blue;
+  float:left;
+  background:radial-gradient(red,yellow,blue,green);
+  /* to change the property values we go for transition value
+  Note it can't be applied directly onto the html tag
+  
+  below we are changing the height and width of the div on mouse hover
+  1s = 1 second*/
+  transition:width 1s, height 1s;
+  transition-delay: 5s;
+  /*transition:height 1s;*/
+  }
+
+  #div1:hover
+  {
+  /* Here we are changing the width of the div on hovering over the 
+  div 
+  */
+  width:600px;
+  height:600px;
+  }
+
+  #div2
+  {
+  /* Here we are changing the width of the div on hovering over the 
+  div 
+  */
+  width:200px;
+  height:200px;
+  border: 2px solid blue;
+  transition:width 2s,ease-in 2s;
+  float:left;
+  background:radial-gradient(green,red,yellow,blue);
+  
+  }
+
+   #div2:hover
+  {
+  width:300px;
+  height:300px;
+  transform:rotate(320deg);
+  }
+
+
+ </style>
+ <body>
+ 	<div id="div1"></div>
+	<div id="div2"></div>
+  
+ </body>
+</html>

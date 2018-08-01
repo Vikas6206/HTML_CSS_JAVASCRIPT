@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Position property example</title>
+ </head>
+ <style>
+
+ h1{
+ position:relative;
+ float:right;
+ }
+
+ img{
+ position:fixed;
+ 
+ }
+
+ </style>
+ <body>
+  <img src="photo-4.jpeg" width="200px" height="200px" alt="Image not found"/>
+  <h1> Hi What's up ?</h1>
+  <h1> Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text </h1>
+
+ </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>Div example- It is used to divide the page</title>
+  <style>
+
+  .div1
+  {
+  height:250px;
+  width:33%;
+  background-color:#ff9900;
+  float:left;
+  }
+
+  .div2
+  {
+  height:250px;
+  width:33%;
+  background-color:#ffffff;
+  float:left;
+  }
+
+  .div3
+  {
+  height:250px;
+  width:33%;
+  background-color:green;
+  float:left;
+  }
+
+  .div4
+  {
+  height:250px;
+  width:100%;
+  background-color:pink;
+  clear:both;
+  }
+
+  </style>
+ </head>
+ <body>
+ <div class="div1"> div1 </div>
+ <div class="div2"> div2 </div>
+ <div class="div3"> div3 </div>
+ <div class="div4"> div4 </div>
+  
+ </body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Gradial example</title>
+  <!-- linear-gradient is the property used 
+  to apply multiple colors within a particular div section
+  Ex:- background:linear-gradient(to bottom,red,yellow,orange)
+  to top, to left, to right etc;
+  -->
+
+  <style>
+   #div1
+   {
+  height:200px;
+  width:200px;
+  border:2px solid red;
+  float:left;
+  background:linear-gradient(orange,pink,blue);
+  }
+
+   #div2
+   {
+  height:200px;
+  width:200px;
+  border:2px solid yellow;
+  float:left;
+  background:linear-gradient(to right,red,green,orange);
+  }
+
+   #div3
+   {
+  height:200px;
+  width:200px;
+  border:2px solid green;
+  float:left;
+  background:linear-gradient(to top,yellow,pink,red);
+  }
+
+  #div4
+   {
+  height:200px;
+  width:200px;
+  border:2px solid pink;
+  float:left;
+  background:radial-gradient(circle,yellow,pink,red,green,blue);
+ /* background:radial-gradient(circle,yellow 25%,pink 35%,red 40%);*/
+  /*we can give % however it's optional*/
+  }
+
+   #div5
+   {
+  height:200px;
+  width:200px;
+  border:2px solid black;
+  float:left;
+  background:radial-gradient(yellow,pink,red,green,blue);
+  }
+  </style>
+ </head>
+ <body>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+	<div id="div4"></div>
+	<div id="div5"></div>
+ </body>
+</html>

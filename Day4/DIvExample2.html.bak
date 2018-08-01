@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Div example</title>
+  <style>
+  #div1
+  {
+  height:1000px;
+  width:1340px;
+  border:2px solid red;
+  background-image:url("photo-4.jpeg"),url("image3.jpeg");
+  background-repeat:no-repeat, no-repeat;
+  
+  background-position: right top, right top;
+  }
+
+  </style>
+ </head>
+ <body>
+  
+  <div id="div1"></div>
+ </body>
+</html>

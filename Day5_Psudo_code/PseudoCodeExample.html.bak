@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Pseudo classes example</title>
+ </head>
+ <style>
+
+ input:checked
+ {
+ 	height:50px;
+	width:50px;
+
+ }
+
+/* to change the color of the first letter and also the first line of the paragraph 
+:: to represent the class element
+*/
+
+ p::first-letter
+ {
+ 	font-size: 400%;
+	color: pink;
+ }
+
+ p::first-line
+ {
+ 	background-color:green;
+	color:blue;
+ }
+
+ /* to change the default selection property while selecting a text on web page we go for ::selection. Please refer to the below example*/
+
+ ::selection
+ {
+ 	color:pink;
+	background-color:yellow;
+ }
+
+  /* to change the default placeholder property we go for ::placeholder. Please refer to the below example which chnages the default color of the placeholder text*/
+
+ ::placeholder
+ {
+ 	color:red;
+	font-size:15px;
+ }
+
+/* we can also provide same css to multiple input type as shown below. Here the same css is applied to the email as well as the text */
+
+ input[type=email],input[type=text]
+ {
+ border:2px solid yellow;
+ border-radius:20px;
+ }
+
+ input[type=email]:valid
+ {
+ border:2px solid green;
+ border-radius:20px;
+ outline:none;
+ }
+
+ input[type=email]:invalid
+ {
+ border:2px solid red;
+ border-radius:20px;
+ outline:none;
+ }
+
+ input[type=number]:in-range
+ {
+ border:2px solid pink;
+ outline:none;
+ }
+
+ input[type=number]:out-of-range
+ {
+ border:2px solid red;
+ outline:none;
+ }
+
+ </style>
+ <body>
+ 
+<form>
+
+ EnterName:<input type="text" placeholder="Enter your name"/><br/><br/>
+Number: <input type="number" name ="" min="1" max="5">
+  Email<input type="email" placeholder="Enter your email"/><br/><br/>
+Male:<input type="radio" name="S" checked>
+Female<input type="radio" name="S">
+<p>Hi whats up ?<br/>
+How are you doing today ?<br/>
+What's todays plan ?<br/>
+</p>
+
+<input type="submit" value="Evaluate"/>
+</form>
+
+
+</body>
+
+</html>

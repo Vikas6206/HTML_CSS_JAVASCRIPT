@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>JavaScript example</title>
+  <!--JS is an object based scripting language that is light weight
+  JS is used to program the behaviour of the web pages
+  JS can change html content
+  JS is used to create interactive websites
+
+  JS can be put into 3 places
+
+  1] inside the body
+  2] inside head
+  3] in a seperate JS file - this is the industry standard
+
+  -->
+  <script>
+  document.writeln("This is first example for javascript ?<br>");
+  
+  /*writeln gives the spaec at the end*/
+
+  document.write("JS doesn't have data type or we can say it uses dynamic data type <br>");
+
+  /*2 types of variable 
+  
+  1] Local variables are decleared inside block or function
+   'var' keywords are used to declare the local varibles
+  
+  2] Gloabl variables are declared outside the function
+     It can be declared inside any function and can be accessed from any function
+  */
+
+  a=10;
+  b="javascript"
+  /*There is not default value for varible in JS. We will get 'undefinied'*/
+
+  /* if we are not using var keywork then the variable are treated as global variable*/
+
+  function fun1(){
+  document.writeln("Function 1 called <br>");
+  document.write("a="+a+"<br>");
+  document.write("b="+b+"<br>");
+  /*document.write() function is used to display the dynamic content through JavaScript*/
+  }
+
+  function fun2(){
+	  document.writeln("Function 2 called <br>");
+      document.write("a="+a+"<br>");
+      document.write("b="+b+"<br>");
+ }
+
+
+/*calling the functions*/
+fun1()
+fun2()
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

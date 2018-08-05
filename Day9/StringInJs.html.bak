@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>String example in JS</title>
+  <script>
+
+  /*Various methos used in the javaScript are as follows*/
+
+  a="Java"
+  b= new String("  JavaScript  is  awesome  ")
+  document.write("Character at 4th position is "+b.charAt(4)+"<br/>")
+  document.write("Concatinating 2 string i.e a and b : "+a.concat(b)+"<br/>")
+  document.write("Index of the is "+b.indexOf("is")+"<br/>")
+  //ther is one more method to find the lastIndexOf() if the string is repeating multiple times
+  document.write("Upper case of b "+b.toUpperCase()+"<br/>")
+  document.write("b length without trim "+b.length+"<br/>")
+  /*in JS trim() will remove the extra spaces from leading and trailing - same as java however while printing it will remove the extra space from within the string i.e. output will be
+  'JavaScript is awesome' note that extra space between JavaScript & is has been removed
+  */
+  document.write("Trimmed b length "+b.trim().length+"<br/>")
+  document.write("Trimmed b value "+b.trim()+"<br/>")
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

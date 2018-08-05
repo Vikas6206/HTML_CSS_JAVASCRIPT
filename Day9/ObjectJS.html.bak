@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Object in JS</title>
+  <script>
+  /*Object creation in JS in 3 ways*/
+
+  /* FIRST WAY */
+  var firstObject={id:12,name:"Vikas",salary:1234567}
+  document.write(firstObject+" directly printing the object<br/>")
+
+  document.write("ID is "+firstObject.id+" name is "+firstObject.name+" Salary is "+firstObject.salary+"<br/>")
+
+  /*SECOND WAY: Creating instance of object directly*/
+
+var emp= new Object();
+emp.id=5018;
+emp.name="Vikas";
+emp.salary=34345;
+
+document.write("ID is "+emp.id+" name is "+emp.name+" Salary is "+emp.salary+"<br/>")
+
+/*THIRD WAY: By using the object constructor
+	- Create a funtion with argument
+	- Each argument value can be assigned in current object
+
+*/
+
+function Emp(id,name,salary)
+{
+	this.id=id;
+	this.name=name;
+	this.salary=salary;
+}
+var e=new Emp(101,"Vkr",123423)
+document.write("ID is "+e.id+" name is "+e.name+" Salary is "+e.salary)
+
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Example of JS operator</title>
+ </head>
+ <script>
+a=0
+b='Java string'
+ if(a==false){
+	 document.write("value of a is "+a+"<br/>");
+	 }
+
+ if(0==false){
+	 document.write("In JS the false represented by 0 <br/>");
+	 }
+
+if(0===false){
+	 document.write("In JS 0===false is of different type<br/>");
+	 }
+
+
+ if(1=="1"){
+	 document.write("In JS automatic type conversion for values i.e. 1==1<br/>");
+	 }
+
+if(1==="1"){
+	 document.write("In JS 1===doublequoted1 because they are of different type<br/>");
+	}
+
+if(null==undefined){
+	document.write("In JS null==undefined is true <br/>");
+	document.writeln("Type of a is - "+typeof(a)+"<br/>");
+	document.writeln("Type of b is - "+typeof(a)+"<br/>");
+	}
+
+function msg(){
+	document.write("Hi this is my first message");
+
+}
+
+msg();
+
+
+ </script>
+ <body>
+  
+ </body>
+</html>

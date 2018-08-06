@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Browser Object Model in JS</title>
+  <script>
+      function alertMsg1(){
+          alert("An exption has occurred!! This is and alertMsg1");
+      }
+
+      function confirmMsg1(){
+          /*
+            NOTE:- Confirm always returns 2 button OK and Cancel
+            The default object for browser is window and we can use
+            window.alert() or simply alert as shown below
+          */
+          var confirmMessage=confirm("An exption has occurred!! This is the outer confirm msg");
+          if(confirmMessage==true){
+              window.alert("U clicked on OK !!");
+          }
+          else
+          {
+              alert("U clicked on cancel.");
+          }
+      }
+
+      function promptMessage(){
+          var v=prompt("Whats your age ?");
+          if(v<18){
+              alert("You are still minor for account creation on Facebook!!!")
+          }
+          else
+          {
+              alert("You are good to go :) Please click on signup once FB link opens");
+              /*
+                window.open() opens the hyper link and hence we
+                won't be able to open it within the same tab and
+                by default it opens up in new tab
+              */
+              open("https://www.facebook.com/");
+          }
+      }
+
+    
+  </script>
+ </head>
+ <body>
+  
+    <button onclick="alertMsg1()">Alert</button>
+
+    <button onclick="confirmMsg1()">Confirm</button>
+
+    <button onclick="promptMessage()">Prompt</button>
+ </body>
+</html>

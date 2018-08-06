@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Math class example in JS</title>
+  <script>
+      /*
+      To find the error go to the debug mode of the browser  
+      Ctri + Shift+ i  shortcut for debug mode    
+      */
+     function mathMethod(){ 
+    document.write("Round off value for 5.7 is "+Math.round(5.7)+"<br/>");
+    document.write("Round off value for 3.45 is "+Math.round(3.45)+"<br/>");
+    document.write("Square root for 4 is "+Math.sqrt(4)+"<br/>");
+    document.write("2 power 2 value is "+Math.pow(2,2)+"<br/>");
+    document.write("ceil value is "+Math.ceil(2.4)+"<br/>");
+    document.write("2.92 floor value is "+Math.floor(2.92)+"<br/>");
+    document.write("Minimum value is "+Math.min(-1,2,5,0)+"<br/>");
+    document.write("Maximum value is "+Math.min(-1,2,5,0)+"<br/>");
+     }
+     mathMethod();
+     function show(){
+         /* The innerHTML will print the value inside the P tag 
+         since we have used the 'pid' belonging to p
+         Below logic will generate the random numbers between 1 to 9
+         */
+          document.getElementById("pid").innerHTML=Math.floor(Math.random()*10);
+
+          /*
+            Math.floor examples:-
+            Math.floor(Math.random()*101);
+            return a number b/w 0 and 100
+
+            Note the random rumbers are inclusive of lower value 
+            and exclusive of higher values
+            
+          */
+     }
+     
+  </script>
+  <style>
+  p{
+      border: solid 2px red;
+      height: 200px;
+      width: 200px;
+      background-color: pink;
+  }
+  </style>
+ </head>
+ <body>
+
+    <!-- Here on click on the button we want to generate
+    the random numbers and print those number's inside
+    the paragraph    
+    -->
+    <button onclick="show()">Random</button>
+    <!--
+        We need event to change the background-color of the
+        p tag 
+    -->
+    <p id="pid"></p>
+ </body>
+</html>

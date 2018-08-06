@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>After clicking the button the Date should be displayed in JS</title>
+  <script>
+  function getDate(){
+      var dat=new Date();
+      document.write("Curretn date is "+dat);
+  }
+  </script>
+ </head>
+ <body>
+  
+    <button onclick="getDate()">Date</button>
+    <!-- Below is the one more way of showing the values in the 
+    innerHTML tag -->
+    <button onclick="this.innerHTML = new Date()">The time is ?</button>
+ </body>
+</html>

@@ -18,6 +18,15 @@
   document.write(date.getFullYear() +":"+" is the currentYear<br/>");
   document.write(date.getHours() +": is the current Hours <br/>");
 
+function date2(){
+ var today=new Date();
+ var hours=today.getHours();
+ var minutes= today.getMinutes();
+ var seconds=today.getSeconds();
+ document.write("<br/> Time is "+hours+":"+minutes+":"+seconds);
+}
+
+date2();
   </script>
  </head>
  <body>

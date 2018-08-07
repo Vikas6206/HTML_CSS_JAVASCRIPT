@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>DOM Document object model in JS</title>
+  <!-- 
+        <script>
+                var a=[1,2,3,4];          
+                document.getElementById("hid").innerHTML=a;
+                
+        </script>
+ -->
+
+<!--
+    This external JS file way doesnot work for the array. Why ?
+ <script src="test.js"></script>
+ -->
+ 
+ </head>
+ <body>
+        
+    <h1 id="hid" ></h1>
+    <button onclick="dis()">Click</button>
+    <h1>H2</h1>
+    <h1>H3</h1>
+    <h1>H4</h1>
+    
+    <!--
+    <script>
+            var a=[1,2,3,4];          
+            document.getElementById("hid").innerHTML=a;
+            
+     </script>
+    -->
+    <script src="test.js"></script>
+    <script>
+        function lengthOfH(){
+            var len=document.getElementsByTagName("h1");
+            document.write("Number of occurance of <h> tag is "+len.length);
+        }
+        lengthOfH();
+    </script>
+ </body>
+
+ <!--  
+    Below diagram show the tree structure of the html document 
+    The document element is the root element of all the HTML document
+    
+        Document
+            ]
+          HTML
+            [
+    ==============
+    [            ]
+    head        Body
+     [            ]
+    Title       Element
+
+    Methods in document are as follows:
+    getElementById(),getElementByName(),getElementByTagName(),write(),writeln()
+    Try it with external JS file ? Why it works with extrnal JS
+    and why not with internal JS
+    How and when the DOM is created ?
+
+    Uncaught TypeError: Cannot set property 'innerHTML' of null
+    at test.js:3
+(anonymous) @ test.js:3
+-->
+</html>

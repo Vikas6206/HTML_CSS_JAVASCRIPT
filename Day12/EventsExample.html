@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Events in JS</title> 
+
+  <script>
+    function changeTextColor(){
+        var fname=document.getElementById("fname");
+        fname.style.color="red";
+    }
+
+    function changeTextBoxColor(middleName){
+        middleName.style.background="yellow";
+    }
+
+    function changeTextOfPTag(){
+     document.getElementById("demo").innerHTML= "You have selected the default text"
+    }
+
+    function changetoLowerCase(){
+        var fName=document.getElementById("mName");
+        fName.value = fName.value.toLowerCase();
+    }
+
+    function changeToUpperCase(){
+        var fName=document.getElementById("fname");
+        fName.value = fName.value.toUpperCase();
+    }
+
+    function changeTextRedColor(webElement,redColor){
+        webElement.style.color="red";
+    }
+
+    function changeTextBlueColor(webElement,blueColor){
+        webElement.style.color="blue";
+    }
+</script>
+
+ </head>
+ <body>
+    <form name="sample">
+        FirstName: <input type="text" id="fname" onblur="changeTextColor()" onkeyup="changeToUpperCase()"><br/>
+        <!-- Onblur() - when we move cursor out of the text box-->
+        MiddleName: <input type="text" id ="mName" onfocus="changeTextBoxColor(this)" onkeydown="changetoLowerCase()"><br/>
+        LastName: <input type="text"  value="Default value" onselect="changeTextOfPTag()"><br/>
+    </form>
+    <p id="demo"></p>
+    <h1 onmouseover="style.color='blue'" onmouseout="style.color='brown'">Sample example for MouseOver</h1>
+    <p onmousedown="changeTextRedColor(this,'red')" onmouseup="changeTextBlueColor(this,'yellow')">Click the text to change color</p>
+    
+ </body>
+
+</html>

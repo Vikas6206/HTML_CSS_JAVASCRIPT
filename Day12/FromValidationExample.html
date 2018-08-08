@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Events in JS</title> 
+
+  <script>
+    function validateForm(){
+        var fname=sample.fname.value;
+        if(fname.length==0){
+            alert("Please provide the name !!!!")
+        }
+
+        var pwd=sample.pass.value;
+        if(pwd.length==0){
+            alert("Please provide the password !!!")
+        }
+        // how is null different from "" in JS? Google it !!
+
+        if(pwd.length <=5){
+            alert("Password length is lessthan 5 character !!!");
+        }
+
+        //TODO: Try to implement the validation logic for actual pwd like 1 special charater,
+        //  used of special character, atleast one number should be present here 
+        // Also try to do the the validation for the email field
+        // How to maintain the session after the alert box as all the details enter by me are getting wiped out ?
+        // alert("Welcome "+fname+", Your password is "+pwd);
+    }   
+    
+    function displayMessage(){
+        var fname=sample2.fname.value;
+        if(fname.length==0){
+            alert("Please provide the name !!!!")
+        }
+
+        var pwd=sample2.pass.value;
+        
+
+        if(pwd.length <=5){
+
+            if(pwd.length==0){
+            alert("Please provide the password !!!")
+            }else
+            alert("Password length is lessthan 5 character !!!");
+        }
+        
+        if(fname.length >0 && pwd.length >5){
+        document.getElementById('demo').innerHTML="Your name is "+fname+" and your password is "+pwd;
+        }
+    } 
+    
+   </script>
+
+ </head>
+ <body>
+     <!--
+    <form name="sample" onsubmit="validateForm()">
+        FirstName: <input type="text" name="fname"><br/>
+      
+        Password: <input type="password"  name="pass"><br/>
+        <input type="submit">
+    </form> -->
+    <br/><br/>
+    
+    <form name="sample2">
+        FirstName: <input type="text" name="fname"><br/>
+      
+        Password: <input type="password"  name="pass"><br/>
+    </form>
+    <!--Here we can maintain the data related related to the field
+    whose validation was passsed and hence we don't have to re-write the 
+    data for that field-->
+    <button onclick="displayMessage()">SubmitButton</button>
+
+    <p id="demo"></p>
+    
+ </body>
+
+</html>
